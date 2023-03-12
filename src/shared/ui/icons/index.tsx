@@ -1,0 +1,1 @@
+export const AddIcon = () => <span style={{color: 'black'}} className="material-symbols-outlined">add</span>

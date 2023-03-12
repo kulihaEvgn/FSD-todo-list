@@ -1,0 +1,20 @@
+.button{
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f3f3;
+  transition: background-color .2s ease-in-out;
+  box-shadow: 0 5px 50px 0.5px rgba(0, 0, 0, 0.31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    transform: scale(101%);
+  }
+  &:active {
+    background-color: #cecece;
+    transform: scale(98%);
+  }
+}

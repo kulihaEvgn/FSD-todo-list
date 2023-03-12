@@ -1,0 +1,26 @@
+.wrap {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  column-gap: 10px;
+}
+
+.todoRow {
+  width: 90%;
+  padding: 10px 20px;
+
+  border: 1px solid #cecece;
+  border-radius: 5px;
+
+  box-shadow: 5px 10px 20px 0.5px #cecece;
+}
+
+.toggleCompetedContainer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #838181;
+}
